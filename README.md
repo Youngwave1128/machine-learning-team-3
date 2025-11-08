@@ -26,7 +26,7 @@ CF + CBF + XGBoost 기반 Hybird 드레스 추천 모델
 
 ## Avtice Learning
 
-* **1. 평점 결측치 보간 (Data Imputation)**
+* **1. 평점 결측치 보완 (Data Imputation)**
     * 단순히 결측치를 제거하지 않고, `review` 텍스트의 **감성 분석(Sentiment Analysis)** 을 통해 빈 `rating` 값을 예측하여 채워넣었습니다.
 
 * **2. BERT를 활용한 스타일 피처 생성**
