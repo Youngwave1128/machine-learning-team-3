@@ -1,0 +1,23 @@
+python Process.py    # 1. 상품 데이터 라벨링
+python rating.py     # 2. 평점 데이터 보완 (감성 분석)
+python Processing.py # 3. 최종 데이터셋 병합 및 전처리
+python modeling2.py  # 4. 군집화 및 CF 모델 생성
+
+---
+
+### 2. 📦 `requirements.txt` (설치 목록)
+이 내용을 `requirements.txt` 파일로 저장하세요. 이 파일이 있어야 남들이 `pip install` 한 방으로 환경을 세팅할 수 있습니다.
+
+```text
+numpy
+pandas
+scikit-learn
+kmodes
+xgboost
+torch
+transformers
+sentence-transformers
+nltk
+tqdm
+matplotlib
+seaborn
